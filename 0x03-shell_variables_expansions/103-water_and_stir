@@ -1,2 +1,0 @@
-#!/bin/bash
-echo $(echo "$WATER" | base64 -d)+$(echo "$STIR" | base64 -d) | bc | base64 
